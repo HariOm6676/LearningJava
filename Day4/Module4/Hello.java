@@ -1,0 +1,18 @@
+public class Hello{
+    int age;
+    int sal;
+    // with arg/Parameter user defined constructors
+    Hello(int age, int sal)
+    {
+        System.out.println("This is with arguments / Parameterized user defined constructors");
+        this.age=age;
+        this.sal=sal;
+	          
+    }
+    public static void main(String[] a){
+        Hello obj1=new Hello(40,55000);
+        System.out.println(obj1.age+" "+ obj1.sal);
+        Hello obj2= new Hello(50,60000);
+        System.out.println(obj2.age+" "+obj2.sal);
+    }
+}

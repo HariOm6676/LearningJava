@@ -1,0 +1,11 @@
+class Student{
+// State
+int age; // int is a primitive datatype
+float pecentage;
+String name;
+
+// Behaviour
+void toLearn(){}
+void toPlay(){}
+}
+// due to primitivedata types java is not fully object oriented in nature.
