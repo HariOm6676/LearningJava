@@ -1,0 +1,17 @@
+class ABC {
+    int a;
+    int b;
+
+    ABC() {
+        System.out.println("From const 1");
+    }
+
+    ABC(int a) {
+        this();
+        System.out.println("From const 2  " + a);
+    }
+
+    public static void main(String[] a) {
+        ABC a1 = new ABC(5);
+    }
+}

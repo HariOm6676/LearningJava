@@ -1,0 +1,15 @@
+class MethodOverloadDemo1{
+    void overloadDemo(){
+        System.out.println("From Method 1");
+    }
+    void overloadDemo(int a){
+        System.out.println("From Method 2 "+a);
+    }
+
+
+public static void main(String args[])
+{
+    MethodOverloadDemo1 md1= new MethodOverloadDemo1();
+    md1.overloadDemo();
+}
+}
