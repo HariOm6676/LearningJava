@@ -1,0 +1,14 @@
+class Starter{
+    public static void main(String args[])
+    {
+        Vechicle v= new Vechicle();
+        System.out.println(v.noWheels);
+        Vechicle temp;
+        temp=v;
+        Car c= new Car();
+        temp=c;
+        temp.toRun();
+        System.out.println(temp.noWheels);
+        System.out.println("from Starter");
+    }
+}
